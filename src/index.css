@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.nav-item.active {
+  color: #008cff;
+  border-bottom: 2px solid #008cff;
+}
+
+.search-button {
+  background: #008cff;
+  font-size: 24px;
+  font-weight: 900;
+  border-radius: 34px;
+  padding: 10px 60px;
+}
+
+.luxe-card {
+  background: linear-gradient(45deg, #c59434, #f8e098);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.date-input {
+  background: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  width: 100%;
+}
